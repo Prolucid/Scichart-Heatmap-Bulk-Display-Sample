@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkLoadViews", "BulkLoadViews\BulkLoadViews.csproj", "{D4CAA456-500F-4CB3-BE3B-00B8BAB911D1}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ElmishCode", "ElmishCode\ElmishCode.fsproj", "{DA7CF333-2B8C-499D-907F-894C7517A04F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4CAA456-500F-4CB3-BE3B-00B8BAB911D1} = {D4CAA456-500F-4CB3-BE3B-00B8BAB911D1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4CAA456-500F-4CB3-BE3B-00B8BAB911D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CAA456-500F-4CB3-BE3B-00B8BAB911D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CAA456-500F-4CB3-BE3B-00B8BAB911D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CAA456-500F-4CB3-BE3B-00B8BAB911D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA7CF333-2B8C-499D-907F-894C7517A04F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA7CF333-2B8C-499D-907F-894C7517A04F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA7CF333-2B8C-499D-907F-894C7517A04F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA7CF333-2B8C-499D-907F-894C7517A04F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {742FA0E1-9D46-460F-9379-F0FD8228C84B}
+	EndGlobalSection
+EndGlobal
